@@ -1,0 +1,8 @@
+# license_plate_config.yaml
+path: C:/Users/elatypova002/Desktop/ИТМО/2 семестр 1 курс/Проектирование архитектур нейронных систем/ДЗ 1/data
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: license_plate
