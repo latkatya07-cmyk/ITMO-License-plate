@@ -20,19 +20,7 @@ ITMO-License-plate/
 ├── prepare_crnn_data.py            # Подготовка мини-датасета и алфавита
 ├── requirements.txt                # Зависимости проекта
 ├── pipeline.py                     # Полный pipeline проекта
-├── data/                           # Датасет детекции
-│   ├── images/
-│   └── labels/
-├── autoriaNumberplateOcrRu/        # Датасет распознавания
-│   └── mini_dataset/               # Подвыборка для быстрых экспериментов
-│       ├── train/
-│       ├── val/
-│       ├── test/
-│       ├── alphabet.txt            # Словарь символов (+ <blank>)
-│       └── labels.txt              # Карта соответствий image → text
-├── results/                        # Результаты детекции
-│   ├── training/                   # Чекпоинты YOLO, логи, графики
-│   └── evaluation/                 # Метрики, визуализации предсказаний
+├── pipeline_result.jpg             # Пример работы модели
 └── README.md
 ```
 
