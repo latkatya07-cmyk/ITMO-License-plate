@@ -60,5 +60,11 @@ python train_crnn.py
 python train_exp1_resize.py
 python train_exp2_scheduler.py
 ```
+## Experiments & Results
 
+| Эксперимент | Конфигурация | CER (val) ↓ | Exact Match Acc ↑ |
+|:------------|:-------------|:-----------:|:-----------------:|
+| **Baseline** | `32×100`, `lr=1e-3`, `Adam`, 20 эпох | `0.063` | `0.594` |
+| **Exp 1**    | `64×200`, `lr=1e-3`, `Adam`, 20 эпох | `0.205` | `0.178` |
+| **Exp 2**    | `32×100` + `ReduceLROnPlateau`, 20 эпох | `0.129` | `0.308` |
 
